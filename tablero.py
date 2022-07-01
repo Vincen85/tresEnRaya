@@ -38,8 +38,8 @@ class Tablero:
         |_______|_______|_______|""")
 
     def quedanCeldasLibres(self):
-        return True
-        # return 0 in self.celdas
+        #return True
+        return 0 in self.celdas
 
     def estaDisponibleLaCelda(self, celda):
         return self.celdas[celda] == 0
