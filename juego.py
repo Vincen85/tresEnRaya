@@ -42,8 +42,8 @@ class Juego:
             self.reset()
             while self.tablero.quedanCeldasLibres():
                 self.tablero.dibuja(self.jugadores)
-                jugador = self.jugadores[self.turno % 2] \
-                .elige(self.tablero)
+                jugador = self.jugadores[self.turno % 2]
+                jugador.elige(self.tablero)
 
                 self.turno += 1
 
