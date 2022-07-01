@@ -54,6 +54,6 @@ class Juego:
             if not self.tablero.hayJugadaGanadora():
                 print("\n    EMPATE: Habéis llegado al final sin que gane nadie.")
                
-                playAgain = self.continuePlaying()
-                if playAgain:               
-                    print("\n    Gracias por volver a jugar, está claro que te estás divirtiendo")
+            playAgain = self.continuePlaying()
+            if playAgain:               
+                print("\n    Gracias por volver a jugar, está claro que te estás divirtiendo")
